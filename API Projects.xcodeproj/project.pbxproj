@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742F44ED21C949F900298F79 /* Dictionary Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F44EC21C949F800298F79 /* Dictionary Extension.swift */; };
+		746A916521C41A9400FF3CB1 /* RandomUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A916421C41A9400FF3CB1 /* RandomUserTableViewCell.swift */; };
+		746A916721C41AA600FF3CB1 /* RepresentativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A916621C41AA600FF3CB1 /* RepresentativeTableViewCell.swift */; };
+		746A916921C41AD100FF3CB1 /* LaureateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A916821C41AD100FF3CB1 /* LaureateTableViewCell.swift */; };
 		74A1BF8921C15C0F00F4719D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BF8821C15C0F00F4719D /* AppDelegate.swift */; };
-		74A1BF8B21C15C0F00F4719D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BF8A21C15C0F00F4719D /* ViewController.swift */; };
 		74A1BF8E21C15C0F00F4719D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A1BF8C21C15C0F00F4719D /* Main.storyboard */; };
 		74A1BF9021C15C1200F4719D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A1BF8F21C15C1200F4719D /* Assets.xcassets */; };
 		74A1BF9321C15C1200F4719D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A1BF9121C15C1200F4719D /* LaunchScreen.storyboard */; };
 		74A1BF9E21C15C1200F4719D /* API_ProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BF9D21C15C1200F4719D /* API_ProjectsTests.swift */; };
 		74A1BFA921C15C1200F4719D /* API_ProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BFA821C15C1200F4719D /* API_ProjectsUITests.swift */; };
+		74A1BFB721C162F700F4719D /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BFB621C162F700F4719D /* SearchTableViewController.swift */; };
+		74A1BFBA21C1698E00F4719D /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BFB921C1698E00F4719D /* RandomUser.swift */; };
+		74A1BFBC21C1699B00F4719D /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BFBB21C1699B00F4719D /* Representative.swift */; };
+		74A1BFBE21C16A5600F4719D /* NobelPrize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BFBD21C16A5600F4719D /* NobelPrize.swift */; };
+		74A1BFC121C17EB800F4719D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1BFC021C17EB800F4719D /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742F44EC21C949F800298F79 /* Dictionary Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary Extension.swift"; sourceTree = "<group>"; };
+		746A916421C41A9400FF3CB1 /* RandomUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewCell.swift; sourceTree = "<group>"; };
+		746A916621C41AA600FF3CB1 /* RepresentativeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewCell.swift; sourceTree = "<group>"; };
+		746A916821C41AD100FF3CB1 /* LaureateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateTableViewCell.swift; sourceTree = "<group>"; };
 		74A1BF8521C15C0F00F4719D /* API Projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Projects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A1BF8821C15C0F00F4719D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74A1BF8A21C15C0F00F4719D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74A1BF8D21C15C0F00F4719D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74A1BF8F21C15C1200F4719D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A1BF9221C15C1200F4719D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		74A1BFA421C15C1200F4719D /* API ProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API ProjectsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A1BFA821C15C1200F4719D /* API_ProjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ProjectsUITests.swift; sourceTree = "<group>"; };
 		74A1BFAA21C15C1200F4719D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A1BFB621C162F700F4719D /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		74A1BFB921C1698E00F4719D /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		74A1BFBB21C1699B00F4719D /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		74A1BFBD21C16A5600F4719D /* NobelPrize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobelPrize.swift; sourceTree = "<group>"; };
+		74A1BFC021C17EB800F4719D /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				74A1BF8821C15C0F00F4719D /* AppDelegate.swift */,
-				74A1BF8A21C15C0F00F4719D /* ViewController.swift */,
 				74A1BF8C21C15C0F00F4719D /* Main.storyboard */,
+				74A1BFBF21C17EA000F4719D /* Controllers */,
+				74A1BFB821C1691300F4719D /* Models */,
+				742F44EC21C949F800298F79 /* Dictionary Extension.swift */,
 				74A1BF8F21C15C1200F4719D /* Assets.xcassets */,
 				74A1BF9121C15C1200F4719D /* LaunchScreen.storyboard */,
 				74A1BF9421C15C1200F4719D /* Info.plist */,
@@ -123,6 +141,28 @@
 				74A1BFAA21C15C1200F4719D /* Info.plist */,
 			);
 			path = "API ProjectsUITests";
+			sourceTree = "<group>";
+		};
+		74A1BFB821C1691300F4719D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74A1BFB921C1698E00F4719D /* RandomUser.swift */,
+				74A1BFBB21C1699B00F4719D /* Representative.swift */,
+				74A1BFBD21C16A5600F4719D /* NobelPrize.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74A1BFBF21C17EA000F4719D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74A1BFB621C162F700F4719D /* SearchTableViewController.swift */,
+				74A1BFC021C17EB800F4719D /* NetworkController.swift */,
+				746A916421C41A9400FF3CB1 /* RandomUserTableViewCell.swift */,
+				746A916621C41AA600FF3CB1 /* RepresentativeTableViewCell.swift */,
+				746A916821C41AD100FF3CB1 /* LaureateTableViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A1BF8B21C15C0F00F4719D /* ViewController.swift in Sources */,
+				746A916721C41AA600FF3CB1 /* RepresentativeTableViewCell.swift in Sources */,
+				746A916921C41AD100FF3CB1 /* LaureateTableViewCell.swift in Sources */,
+				74A1BFBE21C16A5600F4719D /* NobelPrize.swift in Sources */,
+				74A1BFBC21C1699B00F4719D /* Representative.swift in Sources */,
+				742F44ED21C949F900298F79 /* Dictionary Extension.swift in Sources */,
+				74A1BFC121C17EB800F4719D /* NetworkController.swift in Sources */,
 				74A1BF8921C15C0F00F4719D /* AppDelegate.swift in Sources */,
+				74A1BFB721C162F700F4719D /* SearchTableViewController.swift in Sources */,
+				746A916521C41A9400FF3CB1 /* RandomUserTableViewCell.swift in Sources */,
+				74A1BFBA21C1698E00F4719D /* RandomUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
