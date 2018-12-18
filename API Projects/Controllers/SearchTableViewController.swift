@@ -131,9 +131,18 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate {
             let cell = tableView.dequeueReusableCell(withIdentifier: "laureateCell", for: indexPath) as! LaureateTableViewCell
             let laureate = NobelPrize.loadedPrizes[indexPath.section].laureates[indexPath.row]
             cell.nameLabel.text = laureate.firstName + " " + laureate.lastName
-            cell.motivationTextView.text = laureate.motivation
+            cell.motivationLabel.text = laureate.motivation
             return cell
             
+        }
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if currentSearchType == .randomUser {
+            performSegue(withIdentifier: "userInfoSegue", sender: nil)
+        } else {
+            tableView.deselectRow(at: indexPath, animated: false)
         }
     }
     
@@ -284,6 +293,20 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate {
         alertController.addAction(cancelAction)
         
         present(alertController, animated: true)
+        
+    }
+    
+    
+    //========================================
+    // MARK: - Navigation
+    //========================================
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? UserInfoViewController else { fatalError("Unkown segue destination") }
+        guard let indexpath = tableView.indexPathForSelectedRow else { fatalError("cell was not being displayed") }
+        
+        destination.user = RandomUser.loadedUsers[indexpath.row]
         
     }
     

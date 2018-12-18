@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		742F44ED21C949F900298F79 /* Dictionary Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F44EC21C949F800298F79 /* Dictionary Extension.swift */; };
+		742F44EF21C9556C00298F79 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F44EE21C9556C00298F79 /* UserInfoViewController.swift */; };
 		746A916521C41A9400FF3CB1 /* RandomUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A916421C41A9400FF3CB1 /* RandomUserTableViewCell.swift */; };
 		746A916721C41AA600FF3CB1 /* RepresentativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A916621C41AA600FF3CB1 /* RepresentativeTableViewCell.swift */; };
 		746A916921C41AD100FF3CB1 /* LaureateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A916821C41AD100FF3CB1 /* LaureateTableViewCell.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		742F44EC21C949F800298F79 /* Dictionary Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary Extension.swift"; sourceTree = "<group>"; };
+		742F44EE21C9556C00298F79 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		746A916421C41A9400FF3CB1 /* RandomUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTableViewCell.swift; sourceTree = "<group>"; };
 		746A916621C41AA600FF3CB1 /* RepresentativeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewCell.swift; sourceTree = "<group>"; };
 		746A916821C41AD100FF3CB1 /* LaureateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateTableViewCell.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				74A1BFB621C162F700F4719D /* SearchTableViewController.swift */,
+				742F44EE21C9556C00298F79 /* UserInfoViewController.swift */,
 				74A1BFC021C17EB800F4719D /* NetworkController.swift */,
 				746A916421C41A9400FF3CB1 /* RandomUserTableViewCell.swift */,
 				746A916621C41AA600FF3CB1 /* RepresentativeTableViewCell.swift */,
@@ -301,6 +304,7 @@
 				74A1BFBE21C16A5600F4719D /* NobelPrize.swift in Sources */,
 				74A1BFBC21C1699B00F4719D /* Representative.swift in Sources */,
 				742F44ED21C949F900298F79 /* Dictionary Extension.swift in Sources */,
+				742F44EF21C9556C00298F79 /* UserInfoViewController.swift in Sources */,
 				74A1BFC121C17EB800F4719D /* NetworkController.swift in Sources */,
 				74A1BF8921C15C0F00F4719D /* AppDelegate.swift in Sources */,
 				74A1BFB721C162F700F4719D /* SearchTableViewController.swift in Sources */,
